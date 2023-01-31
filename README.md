@@ -43,14 +43,13 @@ It is an application for wallpapers that enables the user to download the photo 
 
 ## Color Reference
 
-| Color             | Hex                                                                |
+| Color             |Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | blue Color  | fromARGB(225, 7, 103, 238) |
 | greey | #524C56 |
-| Download photo | Loading more |
-| ![Screenshot 2023-01-31 201615](https://user-images.githubusercontent.com/94804979/215882111-d36bbfc5-ec77-4a86-9e35-5b9b86fc9d4b.png)
-|![Screenshot 2023-01-31 202029](https://user-images.githubusercontent.com/94804979/215881959-f61b34f3-5b19-4af8-bf3c-8f1543d62716.png)
-|
+| lightBlue | #E5EFFD |
+|lightGreey | #E1E1E1 |
+
 
 
 ## API Reference from pexels
