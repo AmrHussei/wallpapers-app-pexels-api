@@ -20,7 +20,8 @@ It is an application for wallpapers that enables the user to download the photo 
 - Share photos to any other apps
 - Download photo on your phone in app folder
 - Beautiful UI.
-- shimmer loading
+- Shimmer loading
+- Pagination using api and load more
 
 ## Screenshots
 
