@@ -20,7 +20,6 @@ class _HomePageState extends State<HomePage> {
   @override
   void dispose() {
     _refreshController.dispose();
-
     super.dispose();
   }
 
@@ -32,20 +31,16 @@ class _HomePageState extends State<HomePage> {
           if (state is PhotosLoaded) {
             if (_refreshController.isRefresh) {
               _refreshController.refreshCompleted();
-              _refreshController.refreshCompleted();
             }
             if (_refreshController.isLoading) {
-              _refreshController.refreshCompleted();
               _refreshController.refreshCompleted();
             }
           }
           if (state is PhotosLoadinge) {
             if (_refreshController.isRefresh) {
               _refreshController.refreshCompleted();
-              _refreshController.refreshCompleted();
             }
             if (_refreshController.isLoading) {
-              _refreshController.refreshCompleted();
               _refreshController.refreshCompleted();
             }
           }

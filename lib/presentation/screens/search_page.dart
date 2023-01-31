@@ -6,8 +6,8 @@ import '../../business_logic/search_cubit/search_cubit.dart';
 import '../../core/utils/constant.dart';
 import '../../core/utils/my_colors.dart';
 import '../../data/models/photo_model.dart';
-import '../widgets/loading_widget.dart';
-import '../widgets/photos_builder_widget.dart';
+import '../widgets/core_widgets/loading_widget.dart';
+import '../widgets/core_widgets/photos_builder_widget.dart';
 import '../widgets/search_widgets/serch_text_form.dart';
 
 class SearchPage extends StatelessWidget {

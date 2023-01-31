@@ -12,12 +12,12 @@ class FavoriteCubit extends Cubit<FavoriteState> {
     var index =
         listOfFavoritePhoto.indexWhere((element) => element.id == photo.id);
     if (index >= 0) {
-      emit(PhotoRemovedFromFavoriteList());
       listOfFavoritePhoto.removeAt(index);
+      emit(PhotoRemovedFromFavoriteList());
       // savePhotosToLocalStorage(listOfFavoritePhoto);
     } else {
-      emit(PhotoAddToFavoriteList());
       listOfFavoritePhoto.add(photo);
+      emit(PhotoAddToFavoriteList());
       // savePhotosToLocalStorage(listOfFavoritePhoto);
       print('listOfFavoritePhoto*****************************');
       print(listOfFavoritePhoto);

@@ -7,11 +7,10 @@ import 'package:shimmer/shimmer.dart';
 
 import 'package:wallpaper_app/data/models/photo_model.dart';
 
-import 'package:wallpaper_app/presentation/widgets/loading_widget.dart';
-import 'package:wallpaper_app/presentation/widgets/photos_builder_widget.dart';
+import 'package:wallpaper_app/presentation/widgets/core_widgets/loading_widget.dart';
+import 'package:wallpaper_app/presentation/widgets/core_widgets/photos_builder_widget.dart';
 
 import '../../../business_logic/home_cubit/home_page_cubit.dart';
-import '../build_error_widget.dart';
 
 // ignore: must_be_immutable
 class BuildPhotosViewer extends StatelessWidget {

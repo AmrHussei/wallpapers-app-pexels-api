@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
     );
     return MultiBlocProvider(
       providers: [
-        BlocProvider(create: (context) => HomePageCubit()..getAllPhoto()),
+        BlocProvider(create: (context) => HomePageCubit()),
         BlocProvider(create: (context) => SearchCubit()),
         BlocProvider(create: (context) => FavoriteCubit()),
       ],

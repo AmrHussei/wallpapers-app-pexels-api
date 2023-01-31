@@ -18,30 +18,30 @@ class HomePageCubit extends Cubit<HomePageState> {
 
   int page = 1;
 
-  void getAllPhoto({String page = '1'}) {
+  Future<void> getAllPhoto({String page = '1'}) async {
     try {
       emit(PhotosLoadinge());
-      photoRepositores.getAllPhoto(page: '3').then((photos) {
-        if (photos == []) {
-          emit(PhotosError());
-        } else {
-          listOfPhoto = photos;
-          emit(PhotosLoaded(listOfPhoto));
-        }
-      });
+      List<PhotoModel> photos = await photoRepositores.getAllPhoto(page: '1');
+      if (photos == []) {
+        emit(PhotosError());
+      } else {
+        listOfPhoto.addAll(photos);
+        emit(PhotosLoaded(listOfPhoto));
+      }
     } catch (error) {
       emit(PhotosError());
       print(error.toString());
     }
   }
 
-  void loadMorePhoto() {
+  void loadMorePhoto() async {
     page += 1;
     try {
-      photoRepositores.loadMorePhoto(page: page.toString()).then((photos) {
-        listOfPhoto.addAll(photos);
-        emit(PhotosLoaded(listOfPhoto));
-      });
+      List<PhotoModel> photos =
+          await photoRepositores.loadMorePhoto(page: page.toString());
+      listOfPhoto.addAll(photos);
+      emit(PhotosLoaded(listOfPhoto));
+
       print('loadMorePhoto+++++++++++++++++++++++++++++++1');
     } catch (error) {
       emit(PhotosError());
@@ -49,13 +49,13 @@ class HomePageCubit extends Cubit<HomePageState> {
     }
   }
 
-  void searchForPhoto({String query = ''}) {
+  void searchForPhoto({String query = ''}) async {
     try {
       emit(PhotosLoadinge());
-      photoRepositores.searchForPhoto(query: query).then((photos) {
-        listOfPhoto = photos;
-        emit(PhotosLoaded(listOfPhoto));
-      });
+      List<PhotoModel> photos =
+          await photoRepositores.searchForPhoto(query: query);
+      listOfPhoto = photos;
+      emit(PhotosLoaded(listOfPhoto));
     } catch (error) {
       emit(PhotosError());
       print(error.toString());

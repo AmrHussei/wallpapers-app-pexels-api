@@ -1,6 +1,5 @@
 import 'package:dio/dio.dart';
 import 'package:wallpaper_app/core/utils/constant.dart';
-import 'package:wallpaper_app/data/models/photo_model.dart';
 
 class PhotosServices {
   Dio dio = Dio(BaseOptions(

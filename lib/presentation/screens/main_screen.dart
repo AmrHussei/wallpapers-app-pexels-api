@@ -44,6 +44,12 @@ class _MainScreenState extends State<MainScreen> {
   ];
 
   @override
+  void initState() {
+    BlocProvider.of<HomePageCubit>(context).getAllPhoto();
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Container(
       color: MyColor.blue,

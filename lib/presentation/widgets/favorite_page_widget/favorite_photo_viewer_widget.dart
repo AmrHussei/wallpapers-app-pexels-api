@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wallpaper_app/presentation/widgets/photos_builder_widget.dart';
+import 'package:wallpaper_app/presentation/widgets/core_widgets/photos_builder_widget.dart';
 import '../../../business_logic/favorite_cubit/favorite_cubit.dart';
 import '../../../data/models/photo_model.dart';
 import 'no_favorite_photo_widget.dart';
