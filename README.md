@@ -2,6 +2,9 @@
 
 It is an application for wallpapers that enables the user to download the photo on the phone and also share the photo to any any other apps and the ability to add words or color to the image when sharing it (This project was his task in JoSequal Software Solutions company)
 
+## App video
+https://user-images.githubusercontent.com/94804979/215997255-98e5797f-b100-4a2b-8419-318551a41685.mp4
+
 ## Used Tools
 - Flutter  
 - Dart
