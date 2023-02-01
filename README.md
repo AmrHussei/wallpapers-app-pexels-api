@@ -27,32 +27,21 @@ https://user-images.githubusercontent.com/94804979/215997255-98e5797f-b100-4a2b-
 - Pagination using api and load more
 
 ## Screenshots
-
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
-
-
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-  ![Screenshot 2023-01-31 200841](https://user-images.githubusercontent.com/94804979/216002622-fe1c3f94-9880-4c60-b792-bfdd9d9f19ae.png
-  |   ![Screenshot 2023-01-31 201141](https://user-images.githubusercontent.com/94804979/216002652-196fd4f7-d721-41d1-ab15-b77b53bf7ba5.png
   
-
-|  ![Screenshot 2023-01-31 200841](https://user-images.githubusercontent.com/94804979/215880358-6abe694b-d6a1-435c-ab24-9bac5fc80580.png)|
- | ![Screenshot 2023-01-31 200945](https://user-images.githubusercontent.com/94804979/215880320-be9aeb58-e45f-41a7-9936-b22ad26710a6.png)|
-
-
-| ![Screenshot 2023-01-31 201032](https://user-images.githubusercontent.com/94804979/215880602-d1dcfcbe-42f4-498d-8596-da5f74016224.png)|
- |  ![Screenshot 2023-01-31 201225](https://user-images.githubusercontent.com/94804979/215880528-1f2c68f3-d00d-4f8f-adbc-5235452e8f86.png)|
+  ![Screenshot 2023-01-31 200841](https://user-images.githubusercontent.com/94804979/215880358-6abe694b-d6a1-435c-ab24-9bac5fc80580.png)|
+  ![Screenshot 2023-01-31 200945](https://user-images.githubusercontent.com/94804979/215880320-be9aeb58-e45f-41a7-9936-b22ad26710a6.png)
 
 
-| ![Screenshot 2023-01-31 201141](https://user-images.githubusercontent.com/94804979/215881026-d0915ef9-d9b0-45cb-b987-aedad64cb8cf.png)|
-| ![Screenshot 2023-01-31 201304](https://user-images.githubusercontent.com/94804979/215880953-43ab5cb7-eed2-4fdc-9c9b-6fc7ca8d0630.png)|
+ ![Screenshot 2023-01-31 201032](https://user-images.githubusercontent.com/94804979/215880602-d1dcfcbe-42f4-498d-8596-da5f74016224.png)|
+   ![Screenshot 2023-01-31 201225](https://user-images.githubusercontent.com/94804979/215880528-1f2c68f3-d00d-4f8f-adbc-5235452e8f86.png)
 
 
-| ![Screenshot 2023-01-31 201705](https://user-images.githubusercontent.com/94804979/215881677-bad1e6f2-4701-4e66-89fb-545f111ed7f9.png)|
-| ![Screenshot 2023-01-31 201330](https://user-images.githubusercontent.com/94804979/215881512-54215109-f985-4f97-9fa3-6f392f3d2203.png)|
+ ![Screenshot 2023-01-31 201141](https://user-images.githubusercontent.com/94804979/215881026-d0915ef9-d9b0-45cb-b987-aedad64cb8cf.png)|
+ ![Screenshot 2023-01-31 201304](https://user-images.githubusercontent.com/94804979/215880953-43ab5cb7-eed2-4fdc-9c9b-6fc7ca8d0630.png)
+
+
+ ![Screenshot 2023-01-31 201705](https://user-images.githubusercontent.com/94804979/215881677-bad1e6f2-4701-4e66-89fb-545f111ed7f9.png)|
+ ![Screenshot 2023-01-31 201330](https://user-images.githubusercontent.com/94804979/215881512-54215109-f985-4f97-9fa3-6f392f3d2203.png)
 
 
 
