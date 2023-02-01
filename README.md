@@ -28,6 +28,12 @@ https://user-images.githubusercontent.com/94804979/215997255-98e5797f-b100-4a2b-
 
 ## Screenshots
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](  ![Screenshot 2023-01-31 200841](https://user-images.githubusercontent.com/94804979/216002622-fe1c3f94-9880-4c60-b792-bfdd9d9f19ae.png)
+ )  |  ![](  ![Screenshot 2023-01-31 201141](https://user-images.githubusercontent.com/94804979/216002652-196fd4f7-d721-41d1-ab15-b77b53bf7ba5.png)
+  )
+
 |  ![Screenshot 2023-01-31 200841](https://user-images.githubusercontent.com/94804979/215880358-6abe694b-d6a1-435c-ab24-9bac5fc80580.png)|
  | ![Screenshot 2023-01-31 200945](https://user-images.githubusercontent.com/94804979/215880320-be9aeb58-e45f-41a7-9936-b22ad26710a6.png)|
 
